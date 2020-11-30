@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 56e7f3ed4275526cdfb9adf861b9527be459266f
 function totals(){
     
     var gomB = document.getElementById("Goombas").value;
@@ -18,8 +14,3 @@ function totals(){
     x.appendChild(m);
 }
     
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 56e7f3ed4275526cdfb9adf861b9527be459266f
