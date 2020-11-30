@@ -1,55 +1,62 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title></title>
-</head>
-<link rel="stylesheet" href="mario.css"/>
-<body>
-    <h1>Mario Pest Control</h1>
-    <div>
-    <ul>List of each Baddie</ul>
-    <li>Goombas:5 coins</li>
-    <li>Bob-ombs: 7 coins</li>
-    <li>Cheep-Cheeps: 11 coins</li>
-    </div>
-    <div>
-        <p>Goombas.<img src="http://assets.stickpng.com/thumbs/58835b922c9eb99faafea8c5.png"/></p>
-        <form>
-            <label for="Goombas">Goombas caught:</label><br>
-            <input type="number" id="Goombas" name="Goombas"><br>
-            </form>
-    </div>
-    <div>
-        <p>Bob-ombs.<img src="http://assets.stickpng.com/thumbs/58835c4c2c9eb99faafea8c9.png"/></p>
-        <form>
-            <label for="Bob-ombs"> Bob-ombs caught:</label><br>
-            <input type="number" id="Bob-ombs" name="Bob-ombs"><br>
-            </form>
-    </div>
-    <div>
-        <p>Cheep-Cheeps.<img src="http://assets.stickpng.com/thumbs/58835b492c9eb99faafea8c1.png"/></p>
-        <form>
-            <label for="Cheep-Cheeps"> Cheep-Cheeps caught:</label><br>
-            <input type="number" id="Cheep-Cheeps" name="Cheep-Cheeps"><br>
-            </form>
-    </div>
-    <div>
-        <label for="Total">Total pest caught:</label><br>
-            <input type="text" id="total"><br>
-            <button>Total</button>
-      
-    </div>
-    <div>
-    <footer>
-        <nav>
-        Email us @: <a href="Mario@pestcontrol.com"> Mario@pestcontrol.com</a>
-        Our Website:<a href="www.Mariopestcontrol.com"> WWW.Mariopestcontrol.com</a>
-        <p>1234 Happy St, Tampa FL</p>
-        <p>1-800-123-PEST</p>
-    </nav>
-    </footer>
-    </div>
-
+    <html>
+        <head> 
+            <link rel="stylesheet" href="mario.css">
+            <title> Group Green</title>
+        </head>
     
-</body>
+    <body>
+        <header>
+            <h1>Mario Pest Control</h1>
+        </header>
+        <nav>
+            <div>home</div>
+            <div>about</div>
+            <div>contact</div>
+        </nav>
+        <main>
+            <form action = "#">
+
+                <label for="clientname">Client's Name:</label><br> 
+                <input type="text" size ="30" id="clientName" name="clientName" required><br>
+                <label for="dateofservice">Date of Service:</label><br> 
+                <input type="date" id="DateOfService" name="DateOfService" required><br>
+                
+                <p>Goombas.<img src="./"/></p>
+                <p>Price per Unit: $5.00</p>
+                <label for="Goombas">Goombas caught:</label><br>
+                <input type="number" id="Goombas" name="Goombas" required><br>
+                
+                <p>Bob-ombs.<img src="./"/></p>
+                <p> Price per Unit: $7.00 </p>
+                <label for="Bob-ombs"> Bob-ombs caught:</label><br>
+                <input type="number" id="Bob-ombs" name="Bob-ombs" required><br>
+                
+                <p>Cheep-Cheeps.<img src="./"/></p>
+                <p>Price per Unit: $11.00 </p>
+                <label for="Cheep-Cheeps"> Cheep-Cheeps caught:</label><br>
+                <input type="number" id="Cheep-Cheeps" name="Cheep-Cheeps" required>
+                <br>
+                <br>
+                
+                <p ><input type ="button"  onclick = "totals()" value = "Get the Totals:"/></p>
+                <p id = "totalPest">.</p>
+                <br>
+                <br>
+                <p ><input type ="submit" value = "Submit"/></p>         
+            </form>
+            <hr />
+        </main>
+        
+        <footer>
+            
+            Email us @: <a href="mario@pestcontrol.com"> mario@pestcontrol.com</a>
+            Our Website:<a href="www.mariopestcontrol.com"> WWW.mariopestcontrol.com</a>
+            <p>1234 Happy St, Tampa FL</p>
+            <p>1-800-123-PEST</p>
+        
+        </footer>
+        <script src = "mario.js"></scripts>
+    
+    </body>
 </html>
