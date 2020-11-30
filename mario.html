@@ -6,39 +6,48 @@
         </head>
     
     <body>
+        <header>
             <h1>Mario Pest Control</h1>
-        
-        <form action = "#">
+        </header>
+        <nav>
+            <div>home</div>
+            <div>about</div>
+            <div>contact</div>
+        </nav>
+        <main>
+            <form action = "#">
 
-            <label for="clientname">Client's Name:</label><br> 
-            <input type="text" size ="30" id="clientName" name="clientName" required><br>
-            <label for="dateofservice">Date of Service:</label><br> 
-            <input type="date" id="DateOfService" name="DateOfService" required><br>
-            
-            <p>Goombas.<img src="./"/></p>
-            <p>Price per Unit: $5.00</p>
-            <label for="Goombas">Goombas caught:</label><br>
-            <input type="number" id="Goombas" name="Goombas" required><br>
-            
-            <p>Bob-ombs.<img src="./"/></p>
-            <p> Price per Unit: $7.00 </p>
-            <label for="Bob-ombs"> Bob-ombs caught:</label><br>
-            <input type="number" id="Bob-ombs" name="Bob-ombs" required><br>
-            
-            <p>Cheep-Cheeps.<img src="./"/></p>
-            <p>Price per Unit: $11.00 </p>
-            <label for="Cheep-Cheeps"> Cheep-Cheeps caught:</label><br>
-            <input type="number" id="Cheep-Cheeps" name="Cheep-Cheeps" required>
-            <br>
-            <br>
-            
-            <p ><input type ="button"  onclick = "totals()" value = "Get the Totals:"/></p>
-            <p id = "totalPest">.</p>
-            <br>
-            <br>
-            <p ><input type ="submit" value = "Submit"/></p>         
-        </form>
-        <hr />
+                <label for="clientname">Client's Name:</label><br> 
+                <input type="text" size ="30" id="clientName" name="clientName" required><br>
+                <label for="dateofservice">Date of Service:</label><br> 
+                <input type="date" id="DateOfService" name="DateOfService" required><br>
+                
+                <p>Goombas.<img src="./"/></p>
+                <p>Price per Unit: $5.00</p>
+                <label for="Goombas">Goombas caught:</label><br>
+                <input type="number" id="Goombas" name="Goombas" required><br>
+                
+                <p>Bob-ombs.<img src="./"/></p>
+                <p> Price per Unit: $7.00 </p>
+                <label for="Bob-ombs"> Bob-ombs caught:</label><br>
+                <input type="number" id="Bob-ombs" name="Bob-ombs" required><br>
+                
+                <p>Cheep-Cheeps.<img src="./"/></p>
+                <p>Price per Unit: $11.00 </p>
+                <label for="Cheep-Cheeps"> Cheep-Cheeps caught:</label><br>
+                <input type="number" id="Cheep-Cheeps" name="Cheep-Cheeps" required>
+                <br>
+                <br>
+                
+                <p ><input type ="button"  onclick = "totals()" value = "Get the Totals:"/></p>
+                <p id = "totalPest">.</p>
+                <br>
+                <br>
+                <p ><input type ="submit" value = "Submit"/></p>         
+            </form>
+            <hr />
+        </main>
+        
         <footer>
             
             Email us @: <a href="mario@pestcontrol.com"> mario@pestcontrol.com</a>
